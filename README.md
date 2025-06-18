@@ -56,8 +56,6 @@ This dashboard supports financial crime analysts or auditors in identifying patt
 
 ---
 
-<pre> <code>```text ## Project Structure Laundering-Activity-Report/ │ ├── reports/ │ └── LaunderingDashboard.pbix # Power BI report file │ ├── images/ │ ├── Overview.png # Dashboard page screenshots │ ├── CustomerRisk.png │ └── CustomerDetails.png │ ├── .gitattributes └── README.md # This file ```</code> </pre>
-
 ### Features & Techniques Used
 
 - **Power BI DAX expressions** including `YTD`, `MTD`, and time intelligence functions
@@ -70,7 +68,7 @@ This dashboard supports financial crime analysts or auditors in identifying patt
 
 This project uses the **Anti Money Laundering Transaction Data (SAML-D)** created for typology-based transaction monitoring:
 
-- [Kaggle Dataset](https:https://www.kaggle.com/datasets/berkanoztas/synthetic-transaction-monitoring-dataset-aml)
+- [Kaggle Dataset](https://www.kaggle.com/datasets/berkanoztas/synthetic-transaction-monitoring-dataset-aml)
 
 **Citation:**
 > B. Oztas, D. Cetinkaya, F. Adedoyin, M. Budka, H. Dogan and G. Aksu,  
