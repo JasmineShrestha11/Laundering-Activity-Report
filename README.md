@@ -4,8 +4,7 @@ This Power BI dashboard helps simulate how suspicious transaction patterns might
 
 PBIX File: [`/reports/AML_PBI_Dashboard.pbix`](./reports/AML_PBI_Dashboard.pbix)  
 Screenshots: [`/images/`](./images) folder  
-[Preview: Overview Page](https://github.com/JasmineShrestha11/Laundering-Activity-Report/blob/main/Overview.png)
-
+[Preview: Overview Page](https://github.com/JasmineShrestha11/Laundering-Activity-Report/blob/main/images/Overview.png)
 ---
 
 ## What This Dashboard Helps With
@@ -57,21 +56,9 @@ This dashboard supports financial crime analysts or auditors in identifying patt
 
 ---
 
-## Project Structure
-Laundering-Activity-Report/
-│
-├── reports/
-│ └── LaunderingDashboard.pbix # Power BI report file
-│
-├── images/
-│ ├── Overview.png # Dashboard page screenshots
-│ ├── CustomerRisk.png
-│ └── CustomerDetails.png 
-│
-├── .gitattributes 
-└── README.md # This file
+<pre> <code>```text ## Project Structure Laundering-Activity-Report/ │ ├── reports/ │ └── LaunderingDashboard.pbix # Power BI report file │ ├── images/ │ ├── Overview.png # Dashboard page screenshots │ ├── CustomerRisk.png │ └── CustomerDetails.png │ ├── .gitattributes └── README.md # This file ```</code> </pre>
 
-### 🛠 Features & Techniques Used
+### Features & Techniques Used
 
 - **Power BI DAX expressions** including `YTD`, `MTD`, and time intelligence functions
 - **Field Parameters** to dynamically switch between metrics (transaction count or amount) and categories (e.g. payment type, laundering type)
@@ -93,7 +80,7 @@ This project uses the **Anti Money Laundering Transaction Data (SAML-D)** create
 
 ---
 
-## 📝 Notes
+## Notes
 
 - This is a **project** built for learning Power BI and AML concepts.
 - Dataset is fully synthetic, not tied to any real individuals or banks.
